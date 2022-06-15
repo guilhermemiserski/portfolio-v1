@@ -6,6 +6,7 @@
 
 .img-300-300 {
    width: 300px;
+   transition:all 0.3s ease;
 }
 
 .dark-mode {
@@ -71,4 +72,11 @@ h4 {
    100% {
       background-color: #ccc;
    }
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
 }
