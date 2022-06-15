@@ -4,10 +4,6 @@
    font-family: 'Montserrat', sans-serif;
 }
 
-.img-300-300 {
-   width: 300px;
-   transition:all 0.3s ease;
-}
 
 .dark-mode {
    background-color: black;
@@ -74,9 +70,17 @@ h4 {
    }
 }
 
-.grow:hover
-{
-        -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
+.col-md-6 .seg {
+   visibility: hidden;
+   opacity: 0;
+   position:absolute;
+}
+.col-md-6:hover .seg {
+   visibility: visible;
+   opacity: 1;
+}
+
+img {
+   width: 300px;
+   transition: ease 1s;
 }
